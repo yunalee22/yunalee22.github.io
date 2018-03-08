@@ -1,0 +1,17 @@
+p {
+	font-family: 'Inconsolata';
+}
+
+#name {
+	font-family: 'Inconsolata';
+	font-size: 50px;
+}
+
+.social-link {
+	text-decoration: none;
+}
+
+.social-link img {
+	height: 50px;
+	width: 50px;
+}
