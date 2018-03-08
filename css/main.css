@@ -1,9 +1,40 @@
+body {
+	margin: 50px 90px;
+	margin-top: 100px;
+	font-family: 'Karla', sans-serif;
+}
+
+footer {
+	margin-top: 100px;
+}
+
 p {
-	font-family: 'Inconsolata';
+	font-size: 16px;
+}
+
+.intro {
+	width: 60%;
+}
+
+#greeting {
+	font-size: 40px;
+}
+
+i .em {
+	height: 10px;
+}
+
+.section {
+	margin: 70px 0px;
+}
+
+.section h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: blue;
 }
 
 #name {
-	font-family: 'Inconsolata';
 	font-size: 50px;
 }
 
@@ -14,4 +45,9 @@ p {
 .social-link img {
 	height: 50px;
 	width: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
 }
