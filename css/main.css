@@ -1,52 +1,94 @@
-body {
-	margin: 30px 120px;
+/*General*/
+
+* {
 	font-family: 'Karla', sans-serif;
-}
-
-footer {
-	margin-top: 120px;
-	margin-bottom: 70px;
-}
-
-p {
 	font-size: 16px;
 }
 
-.nav {
+footer {
+	margin-top: 10vw;
+	margin-bottom: 5vw;
+}
+
+.container {
+	font-family: 'Karla', sans-serif;
+	margin: 3vw 6vw;
+}
+
+
+/*Navigation*/
+
+.navbar {
 	float: right;
-
 }
 
-.nav a {
-	padding: 14px;
+.navbar a {
+	padding: 0px 14px;
 }
 
-#name {
-	font-size: 50px;
-}
+
+/*Intro*/
 
 .intro {
-	margin: 100px 0px;
+	margin: 10vw 0vw;
 	width: 60%;
 }
 
+.intro p {
+	margin: 2vw 0vw;
+}
+
 #greeting {
-	font-size: 40px;
+	font-size: 34px;
+}
+
+#greeting b {
+	font-size: 34px;
 }
 
 i .em {
 	height: 10px;
 }
 
+
+/*Content*/
+
 .section {
-	margin: 70px 0px;
+	margin: 80px 0px;
 }
 
 .section h2 {
-	font-size: 16px;
 	font-weight: bold;
+	font-size: 22px;
 	color: #066BFD;
+	margin-bottom: 30px;
 }
+
+
+/*Skills*/
+
+.skills .skill-type {
+	font-weight: bold;
+}
+
+
+/*Education*/
+
+.education .right {
+	text-align: right;
+	float: right;
+	overflow: hidden;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 20px;
+}
+
+
+/*Social links*/
 
 .links {
 	text-align: center;
@@ -59,7 +101,7 @@ i .em {
 .social-link img {
 	height: 30px;
 	width: 30px;
-	padding: 0px 10px;
+	margin: 0px 5px;
 }
 
 a {
