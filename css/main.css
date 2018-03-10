@@ -171,8 +171,10 @@ a {
 	background: none;
 	font-size: 30px;
 	position: fixed;
-	bottom: 30px;
-	right: 50px;
+	bottom: 2vw;
+	right: 2vw;
+	/*bottom: 30px;
+	right: 50px;*/
 	z-index: 100;
 	border: none;
 	color: none;
