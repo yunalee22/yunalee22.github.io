@@ -32,7 +32,7 @@ footer {
 
 .intro {
 	margin-top: 7vw;
-	margin-bottom: 9vw;
+	margin-bottom: 10vw;
 	width: 60%;
 }
 
@@ -52,11 +52,17 @@ i .em {
 	height: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+	.intro {
+		width: 100%;
+	}
+}
+
 
 /*Content*/
 
 .section {
-	margin: 4vw 0px;
+	margin: 9vw 0px;
 }
 
 .section h2 {
@@ -158,5 +164,17 @@ a {
 	text-align: center;
 	margin-top: 4vw;
 	font-size: 8pt;
+}
+
+#top-button {
+	display: none;
+	background: none;
+	font-size: 30px;
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	z-index: 100;
+	border: none;
+	color: none;
 }
 
